@@ -67,24 +67,8 @@ h2 {
 .instagram-button,
 .youtube-button,
 .twitter-button,
-.discord-button {
-    display: block;
-    width: 80%; 
-    max-width: 300px; 
-    margin: 0 auto 10px;
-    margin-top: 10px; 
-    padding: 10px 0; 
-    background-color: #fff;
-    color: #0085fe;
-    text-decoration: none;
-    border-radius: 50px;
-    font-weight: bold;
-    font-size: 20px;
-    transition: transform 0.2s ease-in-out;
-    font-family: 'Mahoor-Regular', Arial, sans-serif; 
-}
-
- .whatsapp-button {
+.discord-button,
+.whatsapp-button {
     display: block;
     width: 80%; 
     max-width: 300px; 
