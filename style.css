@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Mahoor-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/ompargh/Contact-Page@main/font%2FMahoor-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Typo-Round-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/ompargh/Contact-Page@main/font%2FTypo-Round-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {  
+    background-image: url('https://cdn.jsdelivr.net/gh/ompargh/Contact-Page@tree/main/background');
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    background-color: #0085fe;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.logo {
+    max-width: 25%; 
+    height: auto;
+}
+
+@media (max-width: 767px) {
+
+    .logo {
+        max-width: 50%; 
+    }
+}
+
+h1 {
+    color: #fff;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-family: 'Typo-Round-Regular', Arial, sans-serif;
+}
+
+h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 5px;
+    font-family: 'Mahoor-Regular', Arial, sans-serif;
+}
+
+.call-button,
+.email-button,
+.telegram-button,
+.instagram-button,
+.youtube-button,
+.twitter-button,
+.discord-button,
+.whatsapp-button {
+    display: block;
+    width: 80%; 
+    max-width: 300px; 
+    margin: 0 auto 10px;
+    margin-top: 10px; 
+    padding: 10px 0; 
+    background-color: #fff;
+    color: #0085fe;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: transform 0.2s ease-in-out;
+    font-family: 'Mahoor-Regular', Arial, sans-serif; 
+}
+
+.separator {
+    border: 2px solid #fff;     
+    width: 50%; 
+    margin: 20px auto;
+    border-radius: 50px;
+}
+
+.footer {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    font-family: 'Mahoor-Regular', Arial, sans-serif;
+  }
+
+  .copyright {
+    margin-top: 20px;
+  }
+
+  .copyright a {
+    color: #666;
+    text-decoration: underline;
+    font-family: 'Typo-Round-Regular', Arial, sans-serif;
+  }
+
+  .copyright a:hover {
+    color: #0085fe;
+  }
