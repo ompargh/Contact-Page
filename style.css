@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'Typo-Round-Regular';
-    src: url('font/Typo-Round-Regular.ttf') format('truetype');
+    src: url('https://cdn.jsdelivr.net/gh/ompargh/Contact-Page@main/font%2FTypo-Round-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
